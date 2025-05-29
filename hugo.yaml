@@ -1,0 +1,24 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: The Rice is Right
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+    - identifier: tags
+      name: Tags
+      url: /tags/
+
+params:
+  homeInfoParams:
+    Title: Hi there 👋🏻
+    Content: Thoughts, musings, rants, and more from yours truly
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/will-rice-dev"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/ricewill"
