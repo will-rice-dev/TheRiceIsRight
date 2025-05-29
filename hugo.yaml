@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://will-rice.dev.github.io/
 languageCode: en-us
 title: The Rice is Right
 theme: ["PaperMod"]
@@ -22,3 +22,7 @@ params:
       url: "https://github.com/will-rice-dev"
     - name: "linkedin"
       url: "https://linkedin.com/in/ricewill"
+
+caches:
+  images:
+    dir: :cacheDir/images
